@@ -1,0 +1,99 @@
+*{font-family: Times, Arial, sans-serif;}
+main{background-color: #FFFFFF;}
+body{background-color: #FFFFFF;
+	color: #000000;
+	padding-left: 2em; padding-right: 2em;}
+header{color: #FFFFFF;
+	text-align: center;
+	height: 64px;
+	background-image: linear-gradient(to right, #000000, #DFE2DB);}
+header img{float: left;}
+nav{text-align: center;
+	word-spacing: 7em;
+	font-weight: bold;
+	font-size: 1.5em;
+	border-bottom: 3px solid #FFFF00;
+	border-top: 3px solid #FFFF00;}
+nav a{text-decoration: none;
+	color: #000000;}
+nav a:hover{text-decoration: none;
+	color: #FFFF00;}
+ul{list-style-type: none;
+	clear: left;}
+li{display: inline-block;
+	width: 400px;}
+footer{text-align: center;
+	font-size: 0.75em;
+	background-color: #000000;
+	color: #FFFF00;}
+footer nav a{color: #FFFF00;
+	display: list-item;
+	list-style-type: none;
+	font-size: 0.75em;
+	word-spacing: 0;}
+footer nav{border: none;
+	text-align: left;}
+.contact{text-align: right;}
+.wrapper{float: left;
+	display: inline-block;
+	padding-right: 2em;}
+.testimonials{text-align: center;
+		font-style: italic;
+		font-size: 1.25em;
+		margin-left: 10em; margin-right: 10em;}
+#content{font-size: 1.25em;}
+#clear{clear: right;}
+#clearleft{clear: left;}
+#sublevel a{text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+	border: 3px solid #FFFF00;
+	padding: 4px;
+	margin: 8%;}
+@media only screen and (max-width: 1024px){
+	body{margin: 0;
+		padding: 0;}
+	header{padding-top: 1px;}
+	nav{float: none;
+		width: auto;}
+	li{margin-left: 2.5em;}
+	main{padding-top: 2.5em; padding-bottom: 2.5em;
+		padding-left: 1em; padding-right: 1em;
+		margin: 0;
+		font-size: 90%;
+		float: none;}
+	.wrapper{padding-left: 2em;}
+	#sublevel a{display: inline-block;}
+}
+@media only all and (max-width: 768px){
+	h1{font-size: 2em;
+		padding-top: 0.25em; padding-left: 1.5em;
+		width: 85%;
+		text-align: center;}
+	nav a{padding: 0.5em;
+		width: 100%;
+		min-width: 6em;}
+	main{padding-top: 0;}
+	li{margin-left: 8em;}
+	footer{padding: 0.5em;
+		margin: 0;}
+	.wrapper{padding-left: 4em;}
+	#sublevel a{display: inline-block;}
+}
+@media only all and (max-width: 480px){
+	h1{font-size: 2em;
+		padding-top: 0.25em; padding-left: 1.5em;
+		width: 85%;
+		text-align: center;}
+	nav a{padding: 0.5em;
+		width: 100%;
+		min-width: 6em;}
+	main{padding-top: 0;}
+	li{margin-left: 0em;}
+	footer{padding: 0.5em;
+		margin: 0;}
+	.wrapper{padding-left: 0em;}
+	.testimonials{width: 75%;
+		margin-left: 4em;}
+	#sublevel a{display: inline-block;}
+}
